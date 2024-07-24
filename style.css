@@ -74,6 +74,9 @@ body {
 .weather-icon img {
   display: block;
   margin: 0 auto;
+  max-width: 50%;
+  max-height: 50%;
+  object-fit: scale-down;
 }
 .location-icon {
   width: 100%;
